@@ -1,9 +1,9 @@
-import { Person } from "../models/Person.js";
-import { Student } from "../models/Person.js";
-import { Employee } from "../models/Person.js";
-import { Customer } from "../models/Person.js";
-import { ListPerson } from "../models/listperson.js";
-import { Validation } from "../models/validation.js";
+import { Person } from "./models/Person.js";
+import { Student } from "./models/Person.js";
+import { Employee } from "./models/Person.js";
+import { Customer } from "./models/Person.js";
+import { ListPerson } from "./models/listperson.js";
+import { Validation } from "./models/validation.js";
 
 const listperson = new ListPerson();
 const validation = new Validation();
