@@ -20,7 +20,15 @@
             referrerpolicy="no-referrer"
         />
         
-       
+       <style>
+        a{
+         
+          color: yellow;
+        }
+        a:hover{
+          color: red;
+        }
+       </style>
         
   </head>
 
@@ -231,20 +239,21 @@
                           </button>
                           <br>
                           <br>
-                          <div class="col col-6 w-80  d-flex">
-                            <select id="fillterType" class="custom-select">
+                          <div class="row">
+                          <div class="col col-12 w-100 mb-3 d-flex " style="justify-content: space-around;" >
+                            <select id="fillterType" class="custom-select" style="padding: 10px; border-radius: 10px; background-color: blueviolet;">
                               <option value="all">Loc Doi Tuong</option>
                               <option value="Student">Student</option>
                               <option value="Employee">Employee</option>
                               <option value="Customer">Customer</option>
                             </select>
-                            <select id="fillterName" class="custom-select">
+                            <select id="fillterName" class="custom-select" style="padding: 10px; border-radius: 10px; background-color: blueviolet;">
                               <option value="all" selected>Loc Thu Tu Ho Ten</option>
                               <option value="AdenZ">A den Z</option>
                               <option value="ZdenA">Z den A</option>
                             </select>
                           </div>
-                          
+                        </div>
                           <button
                             id="btnCapNhatSV"
                             style="display: none"
@@ -276,7 +285,7 @@
               <tbody id="tbody"></tbody>
             </table>
             </div>
- <!-- mục chính  -->
+ 
    
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
